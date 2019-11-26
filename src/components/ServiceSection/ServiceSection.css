@@ -1,0 +1,77 @@
+.service-section {
+    height: 800px;
+    width: 100%;
+    background-color: #efefef;
+    text-align: center;
+}
+
+.service-title h1 {
+    padding-top: 5%;
+    color: #4a4747;
+    font-family: 'Montserrat - Semi Bold', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+
+.service-title p {
+    width: 600px;
+    margin: 2% auto 0;
+    color: #000000;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.service-list {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.service-item {
+    width: 370px;
+    height: 283px;
+    margin: 5% 2% 2%;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    transition: 0.5s all ease-in;
+}
+
+.service-item:hover {
+    box-shadow: 0 12px 10px rgba(0, 0, 0, 0.28);
+    transform: scale(1.1);
+    transition: 0.5s all ease-out;
+}
+
+.service-item img {
+    margin-top: 10%;
+}
+
+.service-item h3 {
+    margin-top: 7%;
+    color: #4a4747;
+    font-family: "Montserrat - Semi Bold",sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    opacity: 0.9;
+}
+
+.service-item p {
+    color: #000000;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: justify;
+    margin: 7%;
+}

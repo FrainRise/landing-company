@@ -1,0 +1,89 @@
+.member-section {
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.member-section-title h1 {
+    padding-top: 5%;
+    color: #4a4747;
+    font-family: 'Montserrat - Semi Bold', sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+
+.member-section-title p {
+    width: 600px;
+    margin: 2% auto 0;
+    color: #000000;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.members-list {
+    margin-top: 4%;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.member-container {
+    position: relative;
+    margin: 1%;
+}
+
+.member-container:hover .member-photo {
+    opacity: 0.3;
+}
+
+.member-container:hover .overlay {
+    opacity: 1;
+}
+
+.member-photo {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+.overlay {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.member-info {
+    margin: 0 auto;
+    background-color: #4CAF50;
+    color: #ffffff;
+    width: 70%;
+    font-size: 20px;
+    font-family: Montserrat, sans-serif;
+    padding: 15px 10px;
+    transition: 0.5s all ease-in;
+}
+
+.member-info:hover{
+    background: #000000;
+    color: #ffffff;
+    transition: 0.5s all ease-out;
+}

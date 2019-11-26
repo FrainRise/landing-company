@@ -1,0 +1,109 @@
+.contact-section {
+    width: 100%;
+    height: 700px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../assets/images/contacts/contact-bg.png");
+}
+
+.input-list {
+    text-align: center;
+    align-items: center;
+}
+
+.input-list h2 {
+    margin: 0 auto;
+    padding-top: 10%;
+    opacity: 0.8;
+    color: #ffffff;
+    font-family: "Montserrat - Semi Bold", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.78px;
+}
+
+.input-list input {
+    width: 55%;
+    margin-left: 250px;
+    margin-top: 10%;
+    opacity: 0.5;
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background: transparent;
+    border: 0 solid #ffffff;
+    border-bottom-width: 1px;
+    transition: 0.5s all ease-in;
+}
+
+.input-list input:hover {
+    border: 0 solid #31f58b;
+    border-bottom-width: 1px;
+    transition: 0.5s all ease-out;
+}
+
+.input-item button {
+    width: 20%;
+    height: 50px;
+    margin: 5% auto 0;
+    color: #26af5f;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.24);
+    border-radius: 3px;
+    border: none;
+    transition: 0.5s all ease-in;
+}
+
+.input-item button:hover {
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.contact-address {
+    margin-top: 120px;
+    margin-left: 200px;
+    width: 470px;
+    height: 400px;
+    background: #ffffff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact-address h2 {
+    padding-top: 10%;
+    opacity: 0.8;
+    color: #4a4747;
+    font-family: "Montserrat - Semi Bold", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.98px;
+}
+
+.contact-address a {
+    margin: 0 auto;
+    padding-top: 10%;
+    opacity: 0.8;
+    color: #000000;
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29.27px;
+    letter-spacing: -0.4px;
+}
+
+.contact-form img {
+    float: left;
+    margin-left: 10%;
+}
+
+.contact-item {
+    margin-top: 10%;
+}
+

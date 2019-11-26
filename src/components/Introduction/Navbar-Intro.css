@@ -1,0 +1,101 @@
+.navbar {
+    padding-top: 2%!important;
+}
+
+.logo {
+    width: 60px;
+    margin-left: 10%;
+    color: #ffffff!important;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-size: 20px!important;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 3px solid #ffffff;
+    border-radius: 3px;
+    line-height: 20px!important;
+    letter-spacing: 1px;
+    transition: 0.5s all ease-in;
+}
+
+.logo:hover {
+    transform: scale(1.5, 1.5);
+    transition: 0.5s all ease-out;
+}
+
+.nav-link {
+    color: #ffffff!important;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+    transition: 0.5s all ease-in;
+    position: relative;
+}
+
+.nav-link:after {
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 0;
+    height: 2px;
+    background-color: #ffffff;
+    content: "";
+    transition: width 0.5s;
+}
+
+.nav-link:hover {
+    color: #ffffff!important;
+}
+
+.nav-link:hover:after {
+    width: 100%!important;
+}
+
+/* INTRO STYLES */
+.intro-section {
+    text-align: center;
+}
+
+.intro-section h1{
+    color: #ffffff;
+    font-family: Montserrat, sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 71px;
+    text-transform: uppercase;
+    letter-spacing: 1.25px;
+    margin-top: 15%;
+}
+
+.intro-section button {
+    width: 10%;
+    height: 50px;
+    margin-top: 5%;
+    font-size: 18px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    text-shadow: 0 15px 32px rgba(0, 0, 0, 0.2);
+    color: #000000;
+    line-height: 40px;
+    letter-spacing: 2px;
+    border: none;
+    transition: 0.5s all ease-in;
+}
+
+.intro-section button:hover {
+    background: transparent;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 20px;
+    transition: 0.5s all ease-out;
+}
+
+.intro-section img {
+    margin-top: 200px;
+}
+
