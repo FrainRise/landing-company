@@ -75,3 +75,106 @@
     transition: 0.5s all ease-out;
 }
 
+@media (max-width: 575.98px) {
+    .project-section button {
+        width: 40%;
+        height: 55px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .project-title h1 {
+        padding-top: 10%;
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .project-title p {
+        width: 300px;
+        margin: 5% auto 0;
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .project-item img {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .project-section button {
+        width: 30%;
+        height: 55px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .project-title h1 {
+        padding-top: 10%;
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .project-title p {
+        width: 500px;
+        margin: 5% auto 0;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .project-item img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 994.98px) {
+    .project-section button {
+        width: 30%;
+        height: 55px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .project-title h1 {
+        padding-top: 10%;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .project-title p {
+        width: 500px;
+        margin: 5% auto 0;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .project-item img {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .project-section button {
+        width: 20%;
+        height: 55px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .project-title h1 {
+        padding-top: 10%;
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .project-title p {
+        width: 500px;
+        margin: 5% auto 0;
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .project-item img {
+        width: 250px;
+        height: 250px;
+    }
+}

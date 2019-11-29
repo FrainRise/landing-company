@@ -41,6 +41,18 @@
     transition: 0.5s all ease-out;
 }
 
+.blog-item h5 {
+    color: #4a4747;
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.blog-item p {
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+}
 
 .blog-item a {
     margin: 5%;
@@ -59,4 +71,99 @@
 
 .blog-item .comment {
     float: right;
+}
+
+@media (max-width: 575.98px) {
+    .blog-section {
+        height: 1500px;
+    }
+
+    .blog-title h2 {
+        padding-top: 10%;
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .blog-list {
+        margin-top: 5%;
+    }
+
+    .blog-item .card {
+        margin: 5% auto 0;
+        width: 300px;
+        height: 420px;
+    }
+
+    .blog-item h5 {
+        font-size: 15px;
+        font-weight: 800;
+    }
+
+    .blog-item a {
+        margin: 5%;
+        font-size: 10px;
+    }
+}
+@media (min-width: 576px) and (max-width: 920.98px) {
+    .blog-section {
+        height: 2000px;
+    }
+
+    .blog-title h2 {
+        padding-top: 10%;
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .blog-list {
+        margin-top: 5%;
+    }
+
+    .blog-item .card {
+        margin: 5% auto 0;
+        width: 450px;
+        height: 500px;
+    }
+
+    .blog-item h5 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .blog-item a {
+        margin: 5%;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 921.98px) and (max-width: 1199.98px) {
+    .blog-section {
+        height: 80%;
+    }
+
+    .blog-title h2 {
+        padding-top: 10%;
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    .blog-list {
+        margin-top: 5%;
+    }
+
+    .blog-item .card {
+        margin: 5% auto 0;
+        width: 450px;
+        height: 500px;
+    }
+
+    .blog-item h5 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .blog-item a {
+        margin: 5%;
+        font-size: 13px;
+    }
 }

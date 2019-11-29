@@ -2,6 +2,8 @@
     width: 100%;
     height: 700px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../assets/images/contacts/contact-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .input-list {
@@ -23,8 +25,7 @@
 
 .input-list input {
     width: 55%;
-    margin-left: 250px;
-    margin-top: 10%;
+    margin: 10% auto 0;
     opacity: 0.5;
     color: #ffffff;
     font-family: Montserrat, sans-serif;
@@ -65,9 +66,8 @@
 }
 
 .contact-address {
-    margin-top: 120px;
-    margin-left: 200px;
-    width: 470px;
+    margin: 120px 0 auto;
+    width: 450px;
     height: 400px;
     background: #ffffff;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
@@ -107,3 +107,179 @@
     margin-top: 10%;
 }
 
+@media (max-width: 575.98px) {
+    .contact-section {
+        height: 1000px;
+    }
+
+    .input-list h2 {
+        margin: 0 auto;
+        padding-top: 10%;
+        font-size: 20px;
+        font-weight: 400;
+        letter-spacing: 1.78px;
+    }
+
+    .input-list input {
+        width: 55%;
+        margin: 10% auto 0;
+        font-size: 15px;
+    }
+
+    .input-item button {
+        width: 30%;
+        height: 50px;
+        margin: 10% auto 0;
+    }
+
+    .contact-address {
+        margin: 20% auto 0;
+        width: 300px;
+        height: 300px;
+    }
+
+    .contact-address h2 {
+        padding-top: 10%;
+        font-size: 25px;
+    }
+
+    .contact-address a {
+        margin: 0 auto;
+        padding-top: 10%;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 29.27px;
+        letter-spacing: -0.4px;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .contact-section {
+        height: 500px;
+    }
+
+    .input-list h2 {
+        margin: 0 auto;
+        padding-top: 10%;
+        font-size: 23px;
+        font-weight: 400;
+        letter-spacing: 1.78px;
+    }
+
+    .input-list input {
+        width: 70%;
+        margin: 10% auto 0;
+        font-size: 17px;
+    }
+
+    .input-item button {
+        width: 50%;
+        height: 50px;
+        margin: 10% auto 0;
+    }
+
+    .contact-address {
+        margin: 20% auto 0;
+        width: 250px;
+        height: 300px;
+    }
+
+    .contact-address h2 {
+        padding-top: 10%;
+        font-size: 25px;
+    }
+
+    .contact-address a {
+        margin: 0 auto;
+        padding-top: 10%;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 29.27px;
+        letter-spacing: -0.4px;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .contact-section {
+        height: 500px;
+    }
+
+    .input-list h2 {
+        margin: 0 auto;
+        padding-top: 10%;
+        font-size: 23px;
+        font-weight: 400;
+        letter-spacing: 1.78px;
+    }
+
+    .input-list input {
+        width: 70%;
+        margin: 10% auto 0;
+        font-size: 17px;
+    }
+
+    .input-item button {
+        width: 40%;
+        height: 50px;
+        margin: 10% auto 0;
+    }
+
+    .contact-address {
+        margin: 20% auto 0;
+        width: 325px;
+        height: 300px;
+    }
+
+    .contact-address h2 {
+        padding-top: 10%;
+        font-size: 25px;
+    }
+
+    .contact-address a {
+        margin: 0 auto;
+        padding-top: 10%;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .contact-section {
+        height: 500px;
+    }
+
+    .input-list h2 {
+        margin: 0 auto;
+        padding-top: 10%;
+        font-size: 23px;
+        font-weight: 400;
+        letter-spacing: 1.78px;
+    }
+
+    .input-list input {
+        width: 70%;
+        margin: 10% auto 0;
+        font-size: 17px;
+    }
+
+    .input-item button {
+        width: 40%;
+        height: 50px;
+        margin: 10% auto 0;
+    }
+
+    .contact-address {
+        margin: 20% auto 0;
+        width: 400px;
+        height: 350px;
+    }
+
+    .contact-address h2 {
+        padding-top: 10%;
+        font-size: 30px;
+    }
+
+    .contact-address a {
+        margin: 0 auto;
+        padding-top: 10%;
+        font-size: 18px;
+    }
+}

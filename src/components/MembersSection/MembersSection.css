@@ -87,3 +87,63 @@
     color: #ffffff;
     transition: 0.5s all ease-out;
 }
+
+@media (min-width: 300.98px)and (max-width: 767.98px){
+    .member-section {
+        width: 100%;
+        height: 60%;
+    }
+
+    .member-section-title h1 {
+        padding-top: 10%;
+        font-size: 22px;
+        font-weight: 900;
+    }
+
+    .member-section-title p {
+        width: 300px;
+        margin: 2% auto 0;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+    }
+
+    .members-list {
+        margin-top: 4%;
+        width: 100%;
+        display: block;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .member-photo {
+        margin: 3% auto 0;
+        width: 40%;
+        display: block;
+    }
+
+    .overlay {
+        width: 30%;
+        top: 30%;
+        left: 30%;
+        transform: translate(-30%, -30%);
+        -ms-transform: translate(-30%, -30%);
+    }
+
+    .member-info {
+        margin-left: 50%;
+        margin-top: 20%;
+        width: 100%;
+        font-size: 15px;
+        padding: 10px 10px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .member-section {
+        width: 100%;
+        height: 600px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 1200px) {}
