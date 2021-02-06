@@ -9,7 +9,13 @@
     padding-top: 5%;
 }
 
+.partners-list.row{
+    padding: 0;
+}
+
 .partners-item {
+    width: 20%!important;
+    
     color: #434343;
     font-family: 'Montserrat - Semi Bold', sans-serif;
     font-size: 28px;
@@ -19,6 +25,10 @@
     letter-spacing: 1.4px;
     filter: grayscale(100%);
     cursor: pointer;
+}
+
+.partners-item.col {
+    padding: 0!important;
 }
 
 .partners-item:hover {

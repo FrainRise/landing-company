@@ -6,9 +6,16 @@
     background-size: cover;
 }
 
+.contact-section .custom-row{
+    margin: 0!important;
+}
+
+
+
 .input-list {
     text-align: center;
     align-items: center;
+    width: 50%;
 }
 
 .input-list h2 {
@@ -63,6 +70,10 @@
     background: transparent;
     border: 1px solid #ffffff;
     color: #ffffff;
+}
+
+.address-section {
+    width: 50%;
 }
 
 .contact-address {

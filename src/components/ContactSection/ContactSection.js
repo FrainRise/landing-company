@@ -8,7 +8,7 @@ class ContactSection extends React.Component{
     render() {
         return (
             <div className="contact-section">
-                <div className="row">
+                <div className="custom-row row">
                     <div className="input-section col">
                         <div className="row">
                             <div className="input-list col">
@@ -26,7 +26,7 @@ class ContactSection extends React.Component{
                             </div>
                         </div>
                     </div>
-                    <div className="col">
+                    <div className="address-section col">
                         <div className="contact-address">
                             <h2> Our Office</h2>
                             <div className="contact-form">
