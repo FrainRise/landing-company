@@ -23,6 +23,10 @@ code {
   opacity: 1;
 }
 
+.row {
+  margin: 0!important;
+}
+
 @media (max-width: 575.98px) {
   .wrapper {
     height: 700px;
